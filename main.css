@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#0a0000;
+					/*0a0000*/
+}
+.div1{
+	background-color: #1a1b1c;
+    width: 95px;
+    height: 550px;
+	margin-left: 169px;
+	margin-bottom: 60px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+#logo{
+	margin-left: 40%;
+	size: 40px;
+}
+
+.navbarlist{
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-left:3px;
+	text-align: center;
+/*	left: -34px;
+*/	position: inherit;
+	/*top: 76px;*/
+	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+}
+/*nav{
+	overflow: auto;
+}*/
+.person{
+
+	list-style: none;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 600;
+	font color: #898989;
+	/*padding-right: 10px;*/
+	display: inline-block;
+	/*padding-left: -5px;*/
+	font-size: 14.5px;
+	text-align: center;
+}
+
+.person a{
+	text-decoration: none;
+	color: #898989;
+	line-height: 5;
+	/*padding-right: 20px;*/
+	text-align: center;
+
+}
+
+.all{
+	color: white;
+	margin:46px 0 0 37px;
+	display: inline-block;
+	overflow: hidden;
+     
+}
+.div2{
+	width: 250px;
+	height: 610px;
+	background-color: #1c1c1c;
+	display: inline-block;
+	overflow: hidden;
+	
+	margin:50px 0 33px ;
+}
+#yashesh-img{
+	
+	width: 250px;
+	height: 550px;
+	background-color: rgba(28,28,28,1);
+}
+#name{
+    margin: -74px 50px 10px 62px;
+	color: #fff;
+	display: block;
+	font-family: fredoka one;
+	font-weight: light;
+
+}
+
+
+#developer{
+	margin: 5px 46px 10px 80px;
+	color: #00c483;
+	text-align: center;
+	display: inline-block;
+
+	font-family: merriweather;
+
+}
+
+.social{
+	display: inline-block;
+	margin: -13px  10px 10px -20px;
+	padding-top: 27px; 
+	text-decoration: none;
+	list-style:none;
+	text-align: center;
+	
+
+
+	
+}
+.icons{
+	display: inline-block;
+	padding-left: 10px;
+
+
+}
+
+
+.imagee{
+	
+	width: 20px;
+	display: inline-block;
+	padding: 0	15px 0 15px;
+
+}
+li a img:hover,a:hover,.all:hover{
+	color: #03a76c;
+
+}
+
+.div3{
+	z-index: 0;
+	background-color:#1c1e1f;
+	width: 700px;
+	height: 550px;
+	display: block;
+	overflow: hidden;
+	scroll-behavior: smooth;
+	overflow: scroll ;
+	color: white;
+	margin:0 0 60px 0;
+	display:inline-block;
+}
+.div3::-webkit-scrollbar{
+	display: none;
+}
+
+.personal-info{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#about-me{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.age-student{
+	font-style: italic;
+	color: #00c483;
+	margin-bottom: 30px;
+
+
+}
+.para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+}
+hr{
+	width: 30rem;
+	border: 0.2px  outset #888888;
+	
+}
+.div-service{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#services{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.para-service{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+}
